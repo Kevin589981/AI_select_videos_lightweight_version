@@ -1,0 +1,30 @@
+{
+    "app_settings": {
+        "default_output_path": "./output",
+        "preferred_device": "cpu",
+        "file_types": [
+            "mp4",
+            "avi",
+            "mov"
+        ]
+    },
+    "api_settings": {
+        "max_retries": 3,
+        "timeout": 30,
+        "model": "deepseek-ai/DeepSeek-R1"
+    },
+    "logging": {
+        "level": "INFO",
+        "max_files": 10,
+        "retention_days": 30
+    },
+    "setting1": {
+        "mode": [
+            "cpu"
+        ]
+    },
+    "xunfei": {
+        "app_id": "ac0879a0",
+        "secret_key": "128847556ca9b5dd484fe3259c5a6813"
+    }
+}

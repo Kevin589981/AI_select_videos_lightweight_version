@@ -1,0 +1,32 @@
+本项目的计划目录结构为
+|根文件夹(名称暂定为AI，建议由main.exe读取并存储在/config/config.json中)
+|main.exe(图形化界面)(由main.py编译而成)
+|README.md
+|src(源代码文件夹，后续编译为pyd可直接import)
+    (编写时需要main来测试)
+    |---vedio_to_audio.py
+    |---audio_to_words.py
+    |---query.py(构造请求)
+    |---video_to_parts.py(根据result.txt进行裁剪)
+|assets
+    |---query.json(预先编写好的提示词)
+|model
+    |sensevoice
+|dat
+    |---result.txt(存储返回的结果)
+    |---info.json(用户选择的视频位置等)
+|config
+    |---config.json(配置信息，包括用户选择的偏好、当前应用位置)
+|logs
+    |---log1\log2\···
+|output(可选则存储在该目录or源目录创建文件夹)
+    |vedio_name
+        |---vedio_name_001
+        |---vedio_name_002
+        ···
+|examples
+    |example_vedio
+    |example_result.txt
+    |···
+这是轻量版，已经剔除了不必要的本地处理功能
+

@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+tmp/
+temp/
+
+# 模型缓存和数据
+.cache/
+_internal/
+__pycache__/
+
+# 大型二进制文件（如果不使用 Git LFS）
+*.bin
+# *.pt
+# *.pth
+# *.onnx
+# *.h5
+
+# 本地配置文件
+.env
+config.local.yaml
+
+model/faster-whisper-small/*.*
+model/faster-whisper-small/*
+*.spec
+*.pyc
+*.svg
+*.exe
+*.mp3
